@@ -1,0 +1,8 @@
+
+|Sno|Test Method Name  |Test Description|Input|Expected Output|Actual Output|
+|--|--|--|--|--|--|
+| 1| FibTest: Fib |This test is designed to verify that the sequence of numbers generated is a list of fibonacci numbers or not|A number is provided as an input for the function n=5|For the given number the program should return a list [0, 1, 1, 2, 3]|The function has returned a list of numbers as [0, 1, 1, 2, 3]|
+|2| FibTest: Fib |This test is designed to verify that the sequence of numbers generated is a list of fibonacci numbers or not|A number is provided as an input for the function n=2|For the given number the program should return a list [0, 1, 1]|The function has returned a list of numbers as [0, 1, 1]|
+|3| FibTest: Fib |This test is designed to verify that the sequence of numbers generated is a list of fibonacci numbers or not|A number is provided as an input for the function n=7|For the given number the program should return a list [0, 1, 1, 2, 3,5,8]|The function has returned a list of numbers as [0, 1, 1, 2, 3,5,8]|
+|4| FibTest: Fib |This test is designed to verify that the sequence of numbers generated is a list of fibonacci numbers or not|A number is provided as an input for the function n=0|For the given number the program should return a list [0]|The function has returned a list of numbers as [0]|
+|5| FibTest: Fib |This test is designed to verify that the give input is valid or not|A number is provided as an input for the function n=-2|For the given number the function should raise a value error stating the input to be a positive number|The function raises a value error stating the input shoud be a valid one
